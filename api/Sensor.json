@@ -1,0 +1,445 @@
+{
+  "api": {
+    "Sensor": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sensor",
+        "spec_url": "https://w3c.github.io/sensors/#the-sensor-interface",
+        "support": {
+          "chrome": {
+            "version_added": "67"
+          },
+          "chrome_android": {
+            "version_added": "67"
+          },
+          "edge": {
+            "version_added": "79"
+          },
+          "firefox": {
+            "version_added": false
+          },
+          "firefox_android": {
+            "version_added": false
+          },
+          "ie": {
+            "version_added": false
+          },
+          "opera": {
+            "version_added": "54"
+          },
+          "opera_android": {
+            "version_added": "48"
+          },
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": {
+            "version_added": false
+          },
+          "samsunginternet_android": {
+            "version_added": "9.0"
+          },
+          "webview_android": {
+            "version_added": "67"
+          }
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "activated": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sensor/activated",
+          "spec_url": "https://w3c.github.io/sensors/#sensor-activated",
+          "support": {
+            "chrome": {
+              "version_added": "67"
+            },
+            "chrome_android": {
+              "version_added": "67"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "54"
+            },
+            "opera_android": {
+              "version_added": "48"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "9.0"
+            },
+            "webview_android": {
+              "version_added": "67"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "hasReading": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sensor/hasReading",
+          "spec_url": "https://w3c.github.io/sensors/#sensor-has-reading",
+          "support": {
+            "chrome": {
+              "version_added": "67"
+            },
+            "chrome_android": {
+              "version_added": "67"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "54"
+            },
+            "opera_android": {
+              "version_added": "48"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "9.0"
+            },
+            "webview_android": {
+              "version_added": "67"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "onactivate": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sensor/onactivate",
+          "spec_url": "https://w3c.github.io/sensors/#sensor-onactivate",
+          "support": {
+            "chrome": {
+              "version_added": "67"
+            },
+            "chrome_android": {
+              "version_added": "67"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "54"
+            },
+            "opera_android": {
+              "version_added": "48"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "9.0"
+            },
+            "webview_android": {
+              "version_added": "67"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "onerror": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sensor/onerror",
+          "spec_url": "https://w3c.github.io/sensors/#sensor-onerror",
+          "support": {
+            "chrome": {
+              "version_added": "67"
+            },
+            "chrome_android": {
+              "version_added": "67"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "54"
+            },
+            "opera_android": {
+              "version_added": "48"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "9.0"
+            },
+            "webview_android": {
+              "version_added": "67"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "onreading": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sensor/onreading",
+          "spec_url": "https://w3c.github.io/sensors/#sensor-onreading",
+          "support": {
+            "chrome": {
+              "version_added": "67"
+            },
+            "chrome_android": {
+              "version_added": "67"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "54"
+            },
+            "opera_android": {
+              "version_added": "48"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "9.0"
+            },
+            "webview_android": {
+              "version_added": "67"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "start": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sensor/start",
+          "spec_url": "https://w3c.github.io/sensors/#sensor-start",
+          "support": {
+            "chrome": {
+              "version_added": "67"
+            },
+            "chrome_android": {
+              "version_added": "67"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "54"
+            },
+            "opera_android": {
+              "version_added": "48"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "9.0"
+            },
+            "webview_android": {
+              "version_added": "67"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "stop": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sensor/stop",
+          "spec_url": "https://w3c.github.io/sensors/#sensor-stop",
+          "support": {
+            "chrome": {
+              "version_added": "67"
+            },
+            "chrome_android": {
+              "version_added": "67"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "54"
+            },
+            "opera_android": {
+              "version_added": "48"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "9.0"
+            },
+            "webview_android": {
+              "version_added": "67"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "timestamp": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sensor/timestamp",
+          "spec_url": "https://w3c.github.io/sensors/#sensor-timestamp",
+          "support": {
+            "chrome": {
+              "version_added": "67"
+            },
+            "chrome_android": {
+              "version_added": "67"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "54"
+            },
+            "opera_android": {
+              "version_added": "48"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "9.0"
+            },
+            "webview_android": {
+              "version_added": "67"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

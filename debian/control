@@ -1,0 +1,25 @@
+Source: node-mdn-browser-compat-data
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yadd <yadd@debian.org>
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+Standards-Version: 4.6.0
+Homepage: https://github.com/mdn/browser-compat-data#readme
+Vcs-Git: https://salsa.debian.org/js-team/node-mdn-browser-compat-data.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-mdn-browser-compat-data
+Rules-Requires-Root: no
+
+Package: node-mdn-browser-compat-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: Compatibility data for Web technologies
+ @mdn/browser-compat-data contains browser compatibility data that
+ describes which platforms (where "platforms" are usually, but not always,
+ web browsers) support particular Web APIs.
+ .
+ This data can be used in documentation, to build compatibility tables
+ listing browser support for APIs.

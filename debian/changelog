@@ -1,0 +1,16 @@
+node-mdn-browser-compat-data (4.0.10-1) unstable; urgency=medium
+
+  * Set upstream metadata fields: Bug-Submit
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright)
+  * Fix filenamemangle
+  * New upstream version 4.0.10
+  * Update test
+
+ -- Yadd <yadd@debian.org>  Thu, 11 Nov 2021 07:28:01 +0100
+
+node-mdn-browser-compat-data (4.0.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #994406)
+
+ -- Yadd <yadd@debian.org>  Wed, 15 Sep 2021 18:06:04 +0200

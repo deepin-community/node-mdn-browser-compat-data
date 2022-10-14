@@ -1,0 +1,527 @@
+{
+  "api": {
+    "BatteryManager": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/BatteryManager",
+        "spec_url": "https://w3c.github.io/battery/#the-batterymanager-interface",
+        "support": {
+          "chrome": {
+            "version_added": "38"
+          },
+          "chrome_android": {
+            "version_added": "38"
+          },
+          "edge": {
+            "version_added": "79"
+          },
+          "firefox": {
+            "version_added": "43",
+            "version_removed": "52"
+          },
+          "firefox_android": {
+            "version_added": "43",
+            "version_removed": "52"
+          },
+          "ie": {
+            "version_added": false
+          },
+          "opera": {
+            "version_added": "25"
+          },
+          "opera_android": {
+            "version_added": "25"
+          },
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": {
+            "version_added": false
+          },
+          "samsunginternet_android": {
+            "version_added": "3.0"
+          },
+          "webview_android": {
+            "version_added": "38"
+          }
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "charging": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BatteryManager/charging",
+          "spec_url": "https://w3c.github.io/battery/#dom-batterymanager-charging",
+          "support": {
+            "chrome": {
+              "version_added": "38"
+            },
+            "chrome_android": {
+              "version_added": "38"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "firefox_android": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "25"
+            },
+            "opera_android": {
+              "version_added": "25"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "3.0"
+            },
+            "webview_android": {
+              "version_added": "38"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "chargingTime": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BatteryManager/chargingTime",
+          "spec_url": "https://w3c.github.io/battery/#dom-batterymanager-chargingtime",
+          "support": {
+            "chrome": {
+              "version_added": "38"
+            },
+            "chrome_android": [
+              {
+                "version_added": "42"
+              },
+              {
+                "version_added": "38",
+                "version_removed": "42",
+                "partial_implementation": true,
+                "notes": "Always equal to <code>0</code> or <code>Infinity</code>."
+              }
+            ],
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "firefox_android": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "25"
+            },
+            "opera_android": [
+              {
+                "version_added": "29"
+              },
+              {
+                "version_added": "25",
+                "version_removed": "29",
+                "partial_implementation": true,
+                "notes": "Always equal to <code>0</code> or <code>Infinity</code>."
+              }
+            ],
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": [
+              {
+                "version_added": "4.0"
+              },
+              {
+                "version_added": "3.0",
+                "version_removed": "4.0",
+                "partial_implementation": true,
+                "notes": "Always equal to <code>0</code> or <code>Infinity</code>."
+              }
+            ],
+            "webview_android": [
+              {
+                "version_added": "42"
+              },
+              {
+                "version_added": "38",
+                "version_removed": "42",
+                "partial_implementation": true,
+                "notes": "Always equal to <code>0</code> or <code>Infinity</code>."
+              }
+            ]
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "dischargingTime": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BatteryManager/dischargingTime",
+          "spec_url": "https://w3c.github.io/battery/#dom-batterymanager-dischargingtime",
+          "support": {
+            "chrome": {
+              "version_added": "38"
+            },
+            "chrome_android": [
+              {
+                "version_added": "42"
+              },
+              {
+                "version_added": "38",
+                "version_removed": "42",
+                "partial_implementation": true,
+                "notes": "Always equal to <code>Infinity</code>."
+              }
+            ],
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "firefox_android": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "25"
+            },
+            "opera_android": [
+              {
+                "version_added": "29"
+              },
+              {
+                "version_added": "25",
+                "version_removed": "29",
+                "partial_implementation": true,
+                "notes": "Always equal to <code>Infinity</code>."
+              }
+            ],
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": [
+              {
+                "version_added": "4.0"
+              },
+              {
+                "version_added": "3.0",
+                "version_removed": "4.0",
+                "partial_implementation": true,
+                "notes": "Always equal to <code>Infinity</code>."
+              }
+            ],
+            "webview_android": [
+              {
+                "version_added": "42"
+              },
+              {
+                "version_added": "38",
+                "version_removed": "42",
+                "partial_implementation": true,
+                "notes": "Always equal to <code>Infinity</code>."
+              }
+            ]
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "level": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BatteryManager/level",
+          "spec_url": "https://w3c.github.io/battery/#dom-batterymanager-level",
+          "support": {
+            "chrome": {
+              "version_added": "38"
+            },
+            "chrome_android": {
+              "version_added": "38"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "firefox_android": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "25"
+            },
+            "opera_android": {
+              "version_added": "25"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "3.0"
+            },
+            "webview_android": {
+              "version_added": "38"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "onchargingchange": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BatteryManager/onchargingchange",
+          "spec_url": "https://w3c.github.io/battery/#dom-batterymanager-onchargingchange",
+          "support": {
+            "chrome": {
+              "version_added": "38"
+            },
+            "chrome_android": {
+              "version_added": "38"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "firefox_android": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "25"
+            },
+            "opera_android": {
+              "version_added": "25"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "3.0"
+            },
+            "webview_android": {
+              "version_added": "38"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "onchargingtimechange": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BatteryManager/onchargingtimechange",
+          "spec_url": "https://w3c.github.io/battery/#dom-batterymanager-onchargingtimechange",
+          "support": {
+            "chrome": {
+              "version_added": "38"
+            },
+            "chrome_android": {
+              "version_added": "38"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "firefox_android": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "25"
+            },
+            "opera_android": {
+              "version_added": "25"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "3.0"
+            },
+            "webview_android": {
+              "version_added": "38"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ondischargingtimechange": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BatteryManager/ondischargingtimechange",
+          "spec_url": "https://w3c.github.io/battery/#dom-batterymanager-ondischargingtimechange",
+          "support": {
+            "chrome": {
+              "version_added": "38"
+            },
+            "chrome_android": {
+              "version_added": "38"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "firefox_android": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "25"
+            },
+            "opera_android": {
+              "version_added": "25"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "3.0"
+            },
+            "webview_android": {
+              "version_added": "38"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "onlevelchange": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BatteryManager/onlevelchange",
+          "spec_url": "https://w3c.github.io/battery/#dom-batterymanager-onlevelchange",
+          "support": {
+            "chrome": {
+              "version_added": "38"
+            },
+            "chrome_android": {
+              "version_added": "38"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "firefox_android": {
+              "version_added": "43",
+              "version_removed": "52"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "25"
+            },
+            "opera_android": {
+              "version_added": "25"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "3.0"
+            },
+            "webview_android": {
+              "version_added": "38"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "api": {
+    "PaymentAddress": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress",
+        "support": {
+          "chrome": {
+            "version_added": "60"
+          },
+          "chrome_android": {
+            "version_added": "56"
+          },
+          "edge": {
+            "version_added": "15"
+          },
+          "firefox": {
+            "version_added": false
+          },
+          "firefox_android": {
+            "version_added": false
+          },
+          "ie": {
+            "version_added": false
+          },
+          "opera": {
+            "version_added": "47"
+          },
+          "opera_android": {
+            "version_added": "44"
+          },
+          "safari": {
+            "version_added": "11.1"
+          },
+          "safari_ios": {
+            "version_added": "11.3"
+          },
+          "samsunginternet_android": {
+            "version_added": "6.0"
+          },
+          "webview_android": {
+            "version_added": false
+          }
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": false,
+          "deprecated": true
+        }
+      },
+      "addressLine": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/addressLine",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "city": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/city",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "country": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/country",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "dependentLocality": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/dependentLocality",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "languageCode": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/languageCode",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": "56",
+              "version_removed": "63"
+            },
+            "firefox_android": {
+              "version_added": "56",
+              "version_removed": "63"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1",
+              "version_removed": "12.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3",
+              "version_removed": "12.2"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "organization": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/organization",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "phone": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/phone",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "postalCode": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/postalCode",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "recipient": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/recipient",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "region": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/region",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "sortingCode": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/sortingCode",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "toJSON": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentAddress/toJSON",
+          "description": "<code>toJSON()</code>",
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": {
+              "version_added": "56"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "47"
+            },
+            "opera_android": {
+              "version_added": "44"
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+build/*.json usr/share/nodejs/@mdn/browser-compat-data/
+build/*.ts usr/share/nodejs/@mdn/browser-compat-data/
+build/*.js usr/share/nodejs/@mdn/browser-compat-data/

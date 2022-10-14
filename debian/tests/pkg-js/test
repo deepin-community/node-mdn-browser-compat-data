@@ -1,0 +1,1 @@
+mocha 'utils/**.test.js' 'test/**.test.js'
