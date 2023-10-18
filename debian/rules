@@ -8,10 +8,32 @@
 	dh $@ --with nodejs
 
 override_dh_auto_build:
-	node scripts/release-build
+	ts-node scripts/generate-types.ts
+	ts-node scripts/release/build.ts
 
 override_dh_auto_install:
 	# debian/install is used here
 
+override_dh_link:
+	dh_link
+	cd debian/node-mdn-browser-compat-data/usr/share/nodejs && \
+	mkdir mdn-browser-compat-data && \
+	cd mdn-browser-compat-data && \
+	for f in `ls ../@mdn/browser-compat-data`; do \
+		ln -s ../@mdn/browser-compat-data/$$f; \
+	done && \
+	rm package.json && \
+	perl -000 -MJSON -ne '$$h=JSON::from_json($$_);delete $$h->{exports};$$h->{name}="mdn-browser-compat-data";print JSON->new->canonical->encode($$h)' \
+		<../@mdn/browser-compat-data/package.json \
+		> package.json
+	cd debian/node-mdn-browser-compat-data/usr/share/nodejs/@mdn/browser-compat-data && \
+	perl -000 -MJSON -ne '$$h=JSON::from_json($$_);print JSON->new->canonical->encode($$h)' \
+		<package.json \
+		>_p.json && \
+	mv -f _p.json package.json
+
 override_dh_installchangelogs:
 	dh_installchangelogs -k RELEASE_NOTES.md
+
+override_dh_gencontrol:
+	dh_gencontrol -- -VbrowserSpecs:Version=`pkgjs-pjson browser-specs version`

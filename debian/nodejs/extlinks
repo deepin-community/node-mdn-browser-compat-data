@@ -1,0 +1,6 @@
+chalk	test
+compare-versions
+fast-json-stable-stringify
+ts-node
+@types/mocha	test
+@types/node

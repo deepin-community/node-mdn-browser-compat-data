@@ -2,4 +2,9 @@ version=4
 opts=\
 dversionmangle=auto,\
 filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-mdn-browser-compat-data-$1/ \
- https://github.com/mdn/browser-compat-data/releases .*/archive.*/v?([\d\.]+).tar.gz
+ https://github.com/mdn/browser-compat-data/tags .*/archive.*/v?([\d\.]+).tar.gz group
+
+# It is not recommended use npmregistry. Please investigate more.
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,component=browser-specs,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-browser-specs-$1/" \
+ https://registry.npmjs.org/browser-specs https://registry.npmjs.org/browser-specs/-/browser-specs-([\d\.]+)@ARCHIVE_EXT@ group

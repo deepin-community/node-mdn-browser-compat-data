@@ -1,3 +1,16 @@
+browser-specs/*.json usr/share/nodejs/browser-specs/
 build/*.json usr/share/nodejs/@mdn/browser-compat-data/
 build/*.ts usr/share/nodejs/@mdn/browser-compat-data/
-build/*.js usr/share/nodejs/@mdn/browser-compat-data/
+build/*.mjs usr/share/nodejs/@mdn/browser-compat-data/
+api/ usr/share/nodejs/@mdn/browser-compat-data/
+browsers/ usr/share/nodejs/@mdn/browser-compat-data/
+css/ usr/share/nodejs/@mdn/browser-compat-data/
+html/ usr/share/nodejs/@mdn/browser-compat-data/
+http/ usr/share/nodejs/@mdn/browser-compat-data/
+javascript/ usr/share/nodejs/@mdn/browser-compat-data/
+mathml/ usr/share/nodejs/@mdn/browser-compat-data/
+schemas/*json usr/share/nodejs/@mdn/browser-compat-data/schemas/
+svg usr/share/nodejs/@mdn/browser-compat-data/
+types usr/share/nodejs/@mdn/browser-compat-data/
+webdriver/ usr/share/nodejs/@mdn/browser-compat-data/
+webextensions/ usr/share/nodejs/@mdn/browser-compat-data/

@@ -18,12 +18,11 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
-                "version_added": "14"
-              }
+                "version_added": false
+              },
+              "safari_ios": "mirror"
             }
           },
           "appIconMaskUrl": {
@@ -39,21 +38,12 @@
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
                   "version_added": false
                 },
-                "firefox_android": {
-                  "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
+                "firefox_android": "mirror",
+                "opera": "mirror",
+                "safari": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": true
-                },
-                "safari": {
-                  "version_added": "14"
-                }
-              },
-              "status": {
-                "experimental": false,
-                "standard_track": false,
-                "deprecated": true
+                "safari_ios": "mirror"
               }
             }
           },
@@ -69,16 +59,15 @@
                 "firefox": {
                   "version_added": false
                 },
-                "firefox_android": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
                 "opera": {
                   "notes": "Specifying the 'buttons' option will cause an asynchronous error on Opera.",
                   "version_added": false
                 },
                 "safari": {
-                  "version_added": "14"
-                }
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -88,24 +77,20 @@
                 "chrome": {
                   "version_added": "31"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
                   "version_added": false
                 },
-                "firefox_android": {
-                  "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
                 "opera": {
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored, on Opera 18 and above.",
                   "version_added": false
                 },
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -122,16 +107,12 @@
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
                   "version_added": false
                 },
-                "firefox_android": {
-                  "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
+                "firefox_android": "mirror",
+                "opera": "mirror",
+                "safari": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": true
-                },
-                "safari": {
-                  "version_added": "14"
-                }
+                "safari_ios": "mirror"
               }
             }
           },
@@ -148,22 +129,15 @@
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
                   "version_added": false
                 },
-                "firefox_android": {
-                  "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
                 "opera": {
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
                   "version_added": false
                 },
                 "safari": {
-                  "version_added": "14"
-                }
-              },
-              "status": {
-                "experimental": false,
-                "standard_track": false,
-                "deprecated": true
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -173,24 +147,20 @@
                 "chrome": {
                   "version_added": "32"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
                   "version_added": false
                 },
-                "firefox_android": {
-                  "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
                 "opera": {
                   "notes": "Setting 'isClickable' to false will cause an asynchronous error on Opera 19 and above. Older Opera versions throw an error synchronously if this options is given.",
                   "version_added": false
                 },
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -209,18 +179,15 @@
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
                   "version_added": false
                 },
-                "firefox_android": {
-                  "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
                 "opera": {
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
                   "version_added": false
                 },
                 "safari": {
-                  "notes": "On macOS only the first item is shown.",
-                  "version_added": "14"
-                }
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -237,16 +204,12 @@
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
                   "version_added": false
                 },
-                "firefox_android": {
-                  "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
+                "firefox_android": "mirror",
+                "opera": "mirror",
+                "safari": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": true
-                },
-                "safari": {
-                  "version_added": "14"
-                }
+                "safari_ios": "mirror"
               }
             }
           },
@@ -256,24 +219,20 @@
                 "chrome": {
                   "version_added": "30"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
                   "version_added": false
                 },
-                "firefox_android": {
-                  "notes": "Specifying this option doesn't throw an error, but its value is ignored.",
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
                 "opera": {
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored, on Opera 17 and above.",
                   "version_added": false
                 },
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -283,22 +242,19 @@
                 "chrome": {
                   "version_added": "50"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": false
                 },
-                "firefox_android": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
                 "opera": {
                   "notes": "Specifying this option doesn't throw an error, but its value is ignored, on Opera 37 and above.",
                   "version_added": false
                 },
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -326,8 +282,9 @@
                 "version_added": true
               },
               "safari": {
-                "version_added": "14"
-              }
+                "version_added": false
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -352,7 +309,8 @@
               },
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -377,7 +335,8 @@
               },
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -402,7 +361,8 @@
               },
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -419,15 +379,14 @@
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "opera": {
                 "version_added": "25"
               },
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -452,7 +411,8 @@
               },
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -477,7 +437,8 @@
               },
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           },
           "byUser": {
@@ -492,15 +453,12 @@
                 "firefox": {
                   "version_added": false
                 },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": true
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -512,21 +470,16 @@
               "chrome": {
                 "version_added": false
               },
-              "edge": {
-                "version_added": false
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "56"
               },
-              "firefox_android": {
-                "version_added": "56"
-              },
-              "opera": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -543,16 +496,15 @@
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "opera": {
-                "notes": "Not supported on Macs.",
+                "notes": "Not supported on macOS.",
                 "version_added": "25"
               },
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         }

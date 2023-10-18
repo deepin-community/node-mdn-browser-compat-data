@@ -18,11 +18,12 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
@@ -32,21 +33,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
-                "firefox_android": {
-                  "version_added": "59"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -56,21 +52,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "94"
                 },
-                "firefox_android": {
-                  "version_added": "94"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -87,15 +78,17 @@
                 "firefox": {
                   "version_added": "63"
                 },
-                "firefox_android": {
-                  "version_added": "63"
-                },
+                "firefox_android": "mirror",
                 "opera": {
                   "version_added": false
                 },
                 "safari": {
                   "notes": "Only supports explicit.",
                   "version_added": "14"
+                },
+                "safari_ios": {
+                  "notes": "Only supports explicit.",
+                  "version_added": "15"
                 }
               }
             }
@@ -117,11 +110,12 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -142,12 +136,11 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -168,12 +161,14 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "notes": "HTTPOnly cookies are not retrieved.",
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "notes": "HTTPOnly cookies are not retrieved.",
+                "version_added": "15"
               }
             }
           },
@@ -183,21 +178,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
-                "firefox_android": {
-                  "version_added": "59"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -207,21 +197,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "94"
                 },
-                "firefox_android": {
-                  "version_added": "94"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -244,15 +229,20 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "notes": [
                   "Only the cookies in the default cookie store are retrieved.",
                   "HTTPOnly cookies are not retrieved."
                 ],
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "notes": [
+                  "Only the cookies in the default cookie store are retrieved.",
+                  "HTTPOnly cookies are not retrieved."
+                ],
+                "version_added": "15"
               }
             }
           },
@@ -262,21 +252,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
-                "firefox_android": {
-                  "version_added": "59"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -286,21 +271,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "94"
                 },
-                "firefox_android": {
-                  "version_added": "94"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -323,12 +303,14 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "notes": "Always returns the same default cookie store with ID 0.",
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "notes": "Always returns the same default cookie store with ID 0.",
+                "version_added": "15"
               }
             }
           }
@@ -349,12 +331,11 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           },
           "partitionKey": {
@@ -363,21 +344,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "94"
                 },
-                "firefox_android": {
-                  "version_added": "94"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -400,11 +376,12 @@
                 "notes": "Before version 56, this function did not remove cookies from private browsing mode. From version 56 onwards this is fixed.",
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
@@ -414,21 +391,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
-                "firefox_android": {
-                  "version_added": "59"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -438,21 +410,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "94"
                 },
-                "firefox_android": {
-                  "version_added": "94"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -470,15 +437,17 @@
               "firefox": {
                 "version_added": "63"
               },
-              "firefox_android": {
-                "version_added": "63"
-              },
+              "firefox_android": "mirror",
               "opera": {
                 "version_added": false
               },
               "safari": {
                 "notes": "Only supports explicit.",
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "notes": "Only supports explicit.",
+                "version_added": "15"
               }
             }
           }
@@ -501,11 +470,12 @@
                 "notes": "Before version 56, this function did not modify cookies in private browsing mode. From version 56 onwards this is fixed.",
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
@@ -515,21 +485,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
-                "firefox_android": {
-                  "version_added": "59"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -539,18 +504,12 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "94"
                 },
-                "firefox_android": {
-                  "version_added": "94"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
                 }
@@ -569,15 +528,17 @@
                 "firefox": {
                   "version_added": "63"
                 },
-                "firefox_android": {
-                  "version_added": "63"
-                },
+                "firefox_android": "mirror",
                 "opera": {
                   "version_added": false
                 },
                 "safari": {
                   "notes": "Only supports explicit.",
                   "version_added": "14"
+                },
+                "safari_ios": {
+                  "notes": "Only supports explicit.",
+                  "version_added": "15"
                 }
               }
             }
