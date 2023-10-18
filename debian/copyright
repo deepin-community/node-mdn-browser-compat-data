@@ -2,22 +2,42 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: @mdn/browser-compat-data
 Upstream-Contact: https://github.com/mdn/browser-compat-data/issues
 Source: https://github.com/mdn/browser-compat-data#readme
+ https://registry.npmjs.org/browser-specs
 
 Files: *
 Copyright: MDN Web Docs
 License: CC0-1.0
 
-Files: debian/*
-Copyright: 2021 Yadd <yadd@debian.org>
-License: Expat
-
-Files: debian/tests/test_modules/browser-specs/*
+Files: browser-specs/*
 Copyright: 2020 World Wide Web Consortium
 License: Expat
 
-Files: debian/tests/test_modules/browser-specs/index.json
+Files: browser-specs/index.json
 Copyright: 2020 World Wide Web Consortium
 License: CC0-1.0
+
+Files: debian/*
+Copyright: 2021-2022 Yadd <yadd@debian.org>
+License: Expat
+
+Files: debian/build_modules/@apidevtools/*
+ debian/build_modules/@jsdevtools/*
+ debian/build_modules/json-schema-ref-parser/*
+Copyright: 2015 James Messinger
+License: Expat
+
+Files: debian/build_modules/call-me-maybe/*
+Copyright: 2015 Eric McCarthy
+License: Expat
+
+Files: debian/build_modules/fdir/*
+Copyright: 2020 Abdullah Atta
+License: Expat
+
+Files: debian/tests/test_modules/chalk-template/*
+Copyright: Josh Junon
+ Sindre Sorhus <sindresorhus@gmail.com>
+License: Expat
 
 License: CC0-1.0
  The laws of most jurisdictions throughout the world automatically

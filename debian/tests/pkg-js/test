@@ -1,1 +1,1 @@
-mocha 'utils/**.test.js' 'test/**.test.js'
+mocha index.test.ts 'utils/**.test.ts' 'test/**.test.ts'

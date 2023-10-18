@@ -1,3 +1,113 @@
+node-mdn-browser-compat-data (5.2.20+~3.33.0-1) unstable; urgency=medium
+
+  * Update lintian override info format in
+    d/source/lintian-overrides on line 4-5
+  * New upstream version 5.2.20+~3.33.0
+
+ -- Yadd <yadd@debian.org>  Thu, 01 Dec 2022 17:53:27 +0100
+
+node-mdn-browser-compat-data (5.2.11+~3.30.0-1) unstable; urgency=medium
+
+  * New upstream version 5.2.11+~3.30.0
+
+ -- Yadd <yadd@debian.org>  Sat, 29 Oct 2022 09:02:43 +0200
+
+node-mdn-browser-compat-data (5.2.2+~3.22.0-2) unstable; urgency=medium
+
+  * Render build reproducible
+
+ -- Yadd <yadd@debian.org>  Mon, 19 Sep 2022 14:24:24 +0200
+
+node-mdn-browser-compat-data (5.2.2+~3.22.0-1) unstable; urgency=medium
+
+  * Fix debian/watch
+  * New upstream version 5.2.2+~3.22.0
+  * Embed modules for build and test
+  * Build with ts-node
+  * Update test
+  * Update lintian overrides
+  * Fix mdn-browser-compat-data exports
+
+ -- Yadd <yadd@debian.org>  Mon, 19 Sep 2022 12:06:05 +0200
+
+node-mdn-browser-compat-data (4.1.20+~3.10.0-1) unstable; urgency=medium
+
+  * Declare compliance with policy 4.6.1
+  * New upstream version 4.1.20+~3.10.0
+
+ -- Yadd <yadd@debian.org>  Thu, 12 May 2022 14:07:16 +0200
+
+node-mdn-browser-compat-data (4.1.18+~3.8.0-1) unstable; urgency=medium
+
+  * New upstream version 4.1.18+~3.8.0
+  * Drop nodejs-12 patch
+
+ -- Yadd <yadd@debian.org>  Sat, 30 Apr 2022 07:37:15 +0200
+
+node-mdn-browser-compat-data (4.1.13+~3.4.0-1) unstable; urgency=medium
+
+  * New upstream version 4.1.13+~3.4.0
+
+ -- Yadd <yadd@debian.org>  Fri, 25 Mar 2022 15:50:11 +0100
+
+node-mdn-browser-compat-data (4.1.11+~3.1.0-1) unstable; urgency=medium
+
+  * New upstream version 4.1.11+~3.1.0
+
+ -- Yadd <yadd@debian.org>  Mon, 14 Mar 2022 08:49:24 +0100
+
+node-mdn-browser-compat-data (4.1.10+~2.30.0-2) unstable; urgency=medium
+
+  * Fix Provides field
+
+ -- Yadd <yadd@debian.org>  Wed, 02 Mar 2022 08:40:46 +0100
+
+node-mdn-browser-compat-data (4.1.10+~2.30.0-1) unstable; urgency=medium
+
+  * Apply multi-arch hints (foreign)
+  * Embed browser-specs
+  * Fix build for nodejs < 14
+  * Update copyright
+  * New upstream version 4.1.10+~2.30.0
+
+ -- Yadd <yadd@debian.org>  Wed, 02 Mar 2022 08:30:13 +0100
+
+node-mdn-browser-compat-data (4.1.0-2) unstable; urgency=medium
+
+  * Fix mdn-browser-compat-data package.json (Closes: #1005287)
+
+ -- Yadd <yadd@debian.org>  Fri, 11 Feb 2022 12:03:04 +0100
+
+node-mdn-browser-compat-data (4.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Fix SVG data directory.
+  * Also ship api and browsers directories.
+  * Update browser-specs in the test modules.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 07 Dec 2021 14:47:44 +0100
+
+node-mdn-browser-compat-data (4.0.12-3) unstable; urgency=medium
+
+  * Also ship the SVG data.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 07 Dec 2021 09:12:23 +0100
+
+node-mdn-browser-compat-data (4.0.12-2) unstable; urgency=medium
+
+  * Team upload.
+  * Ship much more data. (Closes: #1000739).
+  * Make the data available through different paths.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 05 Dec 2021 13:55:30 +0100
+
+node-mdn-browser-compat-data (4.0.12-1) unstable; urgency=medium
+
+  * New upstream version 4.0.12
+
+ -- Yadd <yadd@debian.org>  Sat, 27 Nov 2021 15:36:51 +0100
+
 node-mdn-browser-compat-data (4.0.10-1) unstable; urgency=medium
 
   * Set upstream metadata fields: Bug-Submit

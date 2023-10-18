@@ -1,3 +1,4 @@
-scripts
-test
-utils
+*
+.babelrc.json
+.c8rc.json
+.mocharc.json

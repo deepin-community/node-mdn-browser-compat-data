@@ -8,12 +8,8 @@
           "chrome": {
             "version_added": "51"
           },
-          "chrome_android": {
-            "version_added": "51"
-          },
-          "edge": {
-            "version_added": "79"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
             "version_added": "41",
             "flags": [
@@ -24,40 +20,22 @@
               }
             ]
           },
-          "firefox_android": {
-            "version_added": "41",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "canvas.capturestream.enabled",
-                "value_to_set": "true"
-              }
-            ]
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": false
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": "11"
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": "5.0"
-          },
-          "webview_android": {
-            "version_added": "51"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
         }
@@ -68,14 +46,10 @@
           "spec_url": "https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-canvas",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "51"
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "41",
               "flags": [
@@ -86,40 +60,22 @@
                 }
               ]
             },
-            "firefox_android": {
-              "version_added": "41",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "canvas.capturestream.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "11"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -133,12 +89,8 @@
             "chrome": {
               "version_added": "51"
             },
-            "chrome_android": {
-              "version_added": "51"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "41",
               "flags": [
@@ -149,33 +101,22 @@
                 }
               ]
             },
-            "firefox_android": {
-              "version_added": null
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "11"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "51"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

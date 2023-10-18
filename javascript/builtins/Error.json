@@ -9,9 +9,7 @@
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -21,15 +19,14 @@
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "6"
             },
             "nodejs": {
               "version_added": "0.10.0"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "4"
             },
@@ -39,15 +36,9 @@
             "safari": {
               "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror"
           },
           "status": {
             "experimental": false,
@@ -64,9 +55,7 @@
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -76,15 +65,14 @@
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "6"
               },
               "nodejs": {
                 "version_added": "0.10.0"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "4"
               },
@@ -94,15 +82,9 @@
               "safari": {
                 "version_added": "1"
               },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror"
             },
             "status": {
               "experimental": false,
@@ -110,53 +92,118 @@
               "deprecated": false
             }
           },
-          "options_cause_parameter": {
+          "fileName_parameter": {
             "__compat": {
-              "description": "<code>options.cause</code> parameter",
-              "spec_url": "https://tc39.es/proposal-error-cause/#sec-errorobjects-install-error-cause",
+              "description": "<code>fileName</code> parameter",
               "support": {
                 "chrome": {
-                  "version_added": "93"
-                },
-                "chrome_android": {
-                  "version_added": "93"
-                },
-                "deno": {
-                  "version_added": "1.13"
-                },
-                "edge": {
                   "version_added": false
                 },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": false
+                },
+                "edge": "mirror",
                 "firefox": {
-                  "version_added": "91"
+                  "version_added": "1"
                 },
-                "firefox_android": {
-                  "version_added": "91"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": "79"
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false
                 },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": false,
+                "deprecated": false
+              }
+            }
+          },
+          "lineNumber_parameter": {
+            "__compat": {
+              "description": "<code>lineNumber</code> parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "1"
+                },
+                "firefox_android": "mirror",
+                "ie": {
+                  "version_added": false
+                },
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": false,
+                "deprecated": false
+              }
+            }
+          },
+          "options_cause_parameter": {
+            "__compat": {
+              "description": "<code>options.cause</code> parameter",
+              "spec_url": "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-installerrorcause",
+              "support": {
+                "chrome": {
+                  "version_added": "93"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.13"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "91"
+                },
+                "firefox_android": "mirror",
+                "ie": {
+                  "version_added": false
+                },
+                "nodejs": {
+                  "version_added": "16.9.0"
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
                 "opera_android": {
                   "version_added": false
                 },
                 "safari": {
                   "version_added": "15"
                 },
-                "safari_ios": {
-                  "version_added": "15"
-                },
-                "samsunginternet_android": {
-                  "version_added": false
-                },
-                "webview_android": {
-                  "version_added": "93"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -168,32 +215,27 @@
         },
         "cause": {
           "__compat": {
-            "spec_url": "https://tc39.es/proposal-error-cause/#sec-errorobjects-install-error-cause",
+            "spec_url": "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-installerrorcause",
             "support": {
               "chrome": {
                 "version_added": "93"
               },
-              "chrome_android": {
-                "version_added": "93"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.13"
               },
-              "edge": {
-                "version_added": false
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "91"
               },
-              "firefox_android": {
-                "version_added": "91"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
-                "version_added": false
+                "version_added": "16.9.0"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": false
               },
@@ -203,15 +245,9 @@
               "safari": {
                 "version_added": "15"
               },
-              "safari_ios": {
-                "version_added": "15"
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": "93"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror"
             },
             "status": {
               "experimental": false,
@@ -227,45 +263,30 @@
               "chrome": {
                 "version_added": false
               },
-              "chrome_android": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": false
               },
-              "edge": {
-                "version_added": false
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror"
             },
             "status": {
               "experimental": false,
@@ -281,45 +302,30 @@
               "chrome": {
                 "version_added": false
               },
-              "chrome_android": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": false
               },
-              "edge": {
-                "version_added": false
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror"
             },
             "status": {
               "experimental": false,
@@ -335,45 +341,30 @@
               "chrome": {
                 "version_added": false
               },
-              "chrome_android": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": false
               },
-              "edge": {
-                "version_added": false
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror"
             },
             "status": {
               "experimental": false,
@@ -390,9 +381,7 @@
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -402,15 +391,14 @@
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "6"
               },
               "nodejs": {
                 "version_added": "0.10.0"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "5"
               },
@@ -420,15 +408,9 @@
               "safari": {
                 "version_added": "1"
               },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror"
             },
             "status": {
               "experimental": false,
@@ -445,9 +427,7 @@
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -457,15 +437,14 @@
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "6"
               },
               "nodejs": {
                 "version_added": "0.10.0"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "4"
               },
@@ -475,15 +454,54 @@
               "safari": {
                 "version_added": "1"
               },
-              "safari_ios": {
-                "version_added": "1"
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "serializable_object": {
+          "__compat": {
+            "description": "<code>Error</code> is serializable",
+            "mdn_url": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
+            "spec_url": "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects",
+            "support": {
+              "chrome": {
+                "version_added": "77"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": false
               },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "103",
+                "notes": [
+                  "Version 103 serialized properties: <code>name</code>, <code>message</code>, <code>cause</code>, <code>fileName</code>, <code>lineNumber</code> and <code>columnNumber</code>.",
+                  "Version 104 additionally supports serialization of <code>stack</code> in <a href='https://developer.mozilla.org/docs/Web/API/Window/postMessage'><code>window.postMessage()</code></a> and <a href='https://developer.mozilla.org/docs/Web/API/structuredClone'><code>structuredClone()</code></a>."
+                ]
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror"
             },
             "status": {
               "experimental": false,
@@ -499,9 +517,7 @@
               "chrome": {
                 "version_added": "3"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -511,15 +527,14 @@
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "10"
               },
               "nodejs": {
                 "version_added": "0.10.0"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.5"
               },
@@ -529,70 +544,10 @@
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "≤37"
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": false,
-              "deprecated": false
-            }
-          }
-        },
-        "toSource": {
-          "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/toSource",
-            "support": {
-              "chrome": {
-                "version_added": false
-              },
-              "chrome_android": {
-                "version_added": false
-              },
-              "deno": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
-              "firefox": {
-                "version_added": "1",
-                "version_removed": "74",
-                "notes": "Starting in Firefox 74, <code>toSource()</code> is no longer available for use by web content. It is still allowed for internal and privileged code."
-              },
-              "firefox_android": {
-                "version_added": "4"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "nodejs": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
-              "safari": {
-                "version_added": false
-              },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
               }
             },
             "status": {
@@ -610,9 +565,7 @@
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -622,15 +575,14 @@
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "6"
               },
               "nodejs": {
                 "version_added": "0.10.0"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "4"
               },
@@ -640,15 +592,9 @@
               "safari": {
                 "version_added": "1"
               },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror"
             },
             "status": {
               "experimental": false,

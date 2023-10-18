@@ -1,0 +1,7 @@
+very-long-line-length-in-source-file *.md*
+
+# Readable file
+source-is-missing [*debian/build_modules/json-schema-to-typescript/dist/src/cli.js*]
+source-contains-prebuilt-javascript-object [*debian/build_modules/json-schema-to-typescript/dist/src/cli.js*]
+very-long-line-length-in-source-file *debian/build_modules/json-schema-to-typescript/dist/src/cli.js*
+very-long-line-length-in-source-file *debian/build_modules/*.d.ts*

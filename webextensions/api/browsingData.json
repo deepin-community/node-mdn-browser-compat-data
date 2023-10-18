@@ -17,19 +17,18 @@
                 },
                 "firefox_android": [
                   {
-                    "version_added": "56",
-                    "version_removed": "79"
+                    "version_added": "85"
                   },
                   {
-                    "version_added": "85"
+                    "version_added": "56",
+                    "version_removed": "79"
                   }
                 ],
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -47,19 +46,18 @@
                 },
                 "firefox_android": [
                   {
-                    "version_added": "56",
-                    "version_removed": "79"
+                    "version_added": "85"
                   },
                   {
-                    "version_added": "85"
+                    "version_added": "56",
+                    "version_removed": "79"
                   }
                 ],
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -79,12 +77,11 @@
                   "version_added": "56",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -100,15 +97,12 @@
                 "firefox": {
                   "version_added": false
                 },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": true
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -128,12 +122,11 @@
                   "version_added": "56",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -153,12 +146,11 @@
                   "version_added": "56",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
-                  "version_added": "14"
-                }
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -177,12 +169,11 @@
                 "firefox_android": {
                   "version_added": "85"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -201,12 +192,11 @@
                 "firefox_android": {
                   "version_added": "85"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -225,12 +215,11 @@
                 "firefox_android": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -249,12 +238,11 @@
                 "firefox_android": {
                   "version_added": "85"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -270,15 +258,12 @@
                 "firefox": {
                   "version_added": false
                 },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": true
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -297,12 +282,11 @@
                 "firefox_android": {
                   "version_added": "85"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -314,21 +298,18 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "84"
                 },
                 "firefox_android": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -338,21 +319,22 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
-                  "version_added": "56"
+                  "version_added": "56",
+                  "notes": [
+                    "From Firefox 56 supports the specification of hostnames for the deletion of cookies and local storage items.",
+                    "From Firefox 77 also supports the specification of hostnames for the deletion of service worker and indexedDB items."
+                  ]
                 },
                 "firefox_android": {
                   "version_added": "85"
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -368,15 +350,12 @@
                 "firefox": {
                   "version_added": false
                 },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": true
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             },
             "extension": {
@@ -391,15 +370,12 @@
                   "firefox": {
                     "version_added": false
                   },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": true
-                  },
+                  "firefox_android": "mirror",
+                  "opera": "mirror",
                   "safari": {
                     "version_added": false
-                  }
+                  },
+                  "safari_ios": "mirror"
                 }
               }
             },
@@ -415,15 +391,12 @@
                   "firefox": {
                     "version_added": false
                   },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": true
-                  },
+                  "firefox_android": "mirror",
+                  "opera": "mirror",
                   "safari": {
                     "version_added": false
-                  }
+                  },
+                  "safari_ios": "mirror"
                 }
               }
             }
@@ -444,20 +417,19 @@
                 "firefox_android": [
                   {
                     "notes": "<code>since</code> is not supported with the following data types: <code>cache</code>, <code>indexedDB</code>, <code>localStorage</code>, and <code>serviceWorkers</code>.",
-                    "version_added": "56",
-                    "version_removed": "79"
+                    "version_added": "85"
                   },
                   {
                     "notes": "<code>since</code> is not supported with the following data types: <code>cache</code>, <code>indexedDB</code>, <code>localStorage</code>, and <code>serviceWorkers</code>.",
-                    "version_added": "85"
+                    "version_added": "56",
+                    "version_removed": "79"
                   }
                 ],
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -479,20 +451,19 @@
               "firefox_android": [
                 {
                   "notes": "Specifying <code>dataTypes.history</code> will also remove download history and service workers.",
-                  "version_added": "57",
-                  "version_removed": "79"
+                  "version_added": "85"
                 },
                 {
                   "notes": "Specifying <code>dataTypes.history</code> will also remove download history and service workers.",
-                  "version_added": "85"
+                  "version_added": "57",
+                  "version_removed": "79"
                 }
               ],
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -513,20 +484,19 @@
               "firefox_android": [
                 {
                   "notes": "<code>removalOptions.since</code> is not supported.",
-                  "version_added": "57",
-                  "version_removed": "79"
+                  "version_added": "85"
                 },
                 {
                   "notes": "<code>removalOptions.since</code> is not supported.",
-                  "version_added": "85"
+                  "version_added": "57",
+                  "version_removed": "79"
                 }
               ],
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -545,19 +515,18 @@
               },
               "firefox_android": [
                 {
-                  "version_added": "56",
-                  "version_removed": "79"
+                  "version_added": "85"
                 },
                 {
-                  "version_added": "85"
+                  "version_added": "56",
+                  "version_removed": "79"
                 }
               ],
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -578,12 +547,11 @@
                 "version_added": "57",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -604,12 +572,11 @@
                 "version_added": "57",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -631,12 +598,11 @@
                 "notes": "See <a href='https://bugzil.la/1363010'>bug 1363010</a>. Before Firefox for Android 79, <a href='https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/remove'><code>browser.history.remove(options, {history:true})</code></a> can be used instead.",
                 "version_added": false
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -658,12 +624,11 @@
                 "notes": "<code>removalOptions.since</code> is not supported.",
                 "version_added": "85"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           },
           "removalOptions": {
@@ -673,21 +638,18 @@
                   "chrome": {
                     "version_added": false
                   },
-                  "edge": {
-                    "version_added": false
-                  },
+                  "edge": "mirror",
                   "firefox": {
                     "version_added": "58"
                   },
                   "firefox_android": {
                     "version_added": "85"
                   },
-                  "opera": {
-                    "version_added": false
-                  },
+                  "opera": "mirror",
                   "safari": {
                     "version_added": false
-                  }
+                  },
+                  "safari_ios": "mirror"
                 }
               }
             }
@@ -709,9 +671,7 @@
               "firefox_android": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
               }
@@ -734,12 +694,11 @@
               "firefox_android": {
                 "version_added": "85"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -758,19 +717,18 @@
               },
               "firefox_android": [
                 {
-                  "version_added": "56",
-                  "version_removed": "79"
+                  "version_added": "85"
                 },
                 {
-                  "version_added": "85"
+                  "version_added": "56",
+                  "version_removed": "79"
                 }
               ],
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         }
