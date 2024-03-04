@@ -8,8 +8,8 @@
 	dh $@ --with nodejs
 
 override_dh_auto_build:
-	ts-node scripts/generate-types.ts
-	ts-node scripts/release/build.ts
+	node --loader ts-node/esm scripts/generate-types.ts
+	node --loader ts-node/esm scripts/release/build.ts
 
 override_dh_auto_install:
 	# debian/install is used here
